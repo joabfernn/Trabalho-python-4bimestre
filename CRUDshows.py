@@ -11,7 +11,7 @@ def listar_shows():
         print(s)
 
 def excluir_show():
-    artista = input("Artista do show a excluir: ")
+    artista = input("Excluir show do artista: ")
     for s in shows:
         if s["artista"] == artista:
             shows.remove(s)
