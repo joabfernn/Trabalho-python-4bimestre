@@ -2,7 +2,7 @@ ingressos = []
 
 def vender_ingresso():
     cpf = input("CPF do torcedor: ")
-    evento = input("Evento (jogo ou show): ")
+    evento = input("Evento: ")
     tipo = input("Tipo (Jogo/Show): ")
 
     ingressos.append({
